@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a  href="https://en.wikipedia.org/wiki/The_Avengers_(2012_film)" target="_blank"><img id="main" src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/29F36C806282BAE3D127625AAE7F80E93D48DF01797F42C5DA8BF2CCA3DAC475/scale?width=1200&aspectRatio=1.78&format=jpeg"></a>
+    <div class="grid">
+        <h1> Grid Gallery</h1>
+        <img id="short" src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/07/04/590059-captain-america.jpg">
+        <img id="short" src="download%20(1).jfif">
+        <img id="short" src="download%20(4).jfif">
+        <img id="short" src="download%20(2).jfif">
+        <br>
+        <img id="long" src="download%20(3).jfif">
+        <img id="long" src="download.jfif">
+        <img id="long" src="Spider-Man_FFH_Render.png">
+        <img id="long" src="images.jfif">
+    </div>
+
+    <div class="slide">
+        <h1> Sliding Gallery</h1>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img src="download%20(1).jfif">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="download%20(2).jfif">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="download%20(3).jfif">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="download%20(4).jfif">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="download.jfif">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img src="images.jfif">
+                    </center>
+                </div>
+
+
+            </div>
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            <table> 
+                <tr>
+               <ul type="circle" id="carousel-indicator">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        
+    </ul>
+                    </tr>
+                </table>
+                
+        </div>
+    </div>
+ 
+
+</body></html>
